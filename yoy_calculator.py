@@ -49,4 +49,5 @@ class TestCalculateYoYChange(unittest.TestCase):
 
 
 if __name__ == "__main__":
-    unittest.TextTestRunner(verbosity=2).run(unittest.makeSuite(TestCalculateYoYChange))
+    # unittest.TextTestRunner(verbosity=2).run(unittest.makeSuite(TestCalculateYoYChange))
+    unittest.TextTestRunner(verbosity=2).run(unittest.TestLoader().loadTestsFromTestCase(TestCalculateYoYChange))
