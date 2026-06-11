@@ -47,7 +47,7 @@ All three unit tests should pass.
 
 ## 2. SQL – Open High-Priority Tickets
 
-Query lives in `open_tickets_query.sql`. It filters the `tickets` table on three conditions at once — status, assignee, and priority.
+Query lives in `open_tickets_query.sql`. It filters the `tickets` table on three conditions at once: status, assignee, and priority.
 
 ```sql
 SELECT ticket_id, status, priority, assigned_to
@@ -86,7 +86,3 @@ python aggregate_sales.py
 ```
 
 ---
-
-## Requirements
-
-Just standard Python 3 — no external dependencies needed for any of these.
