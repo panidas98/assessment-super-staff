@@ -77,7 +77,7 @@ aggregate_sales(transactions)
 # → {'apple': 13, 'banana': 7, 'orange': 8}
 ```
 
-The logic is a simple accumulator loop — check if the product key exists, add to it if so, initialize it if not. Could also be done with `collections.defaultdict(int)` or `dict.get()` as alternatives, but the explicit check keeps it readable.
+The logic is a simple accumulator loop — check if the product key exists, add to it if so, initialize it if not.
 
 **Running it:**
 
