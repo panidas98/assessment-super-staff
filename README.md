@@ -1,4 +1,4 @@
-# Technical Assessment – Support Engineer
+# Technical Assessment Solution
 
 Solutions to technical assessment covering debugging, SQL, and Python.
 
